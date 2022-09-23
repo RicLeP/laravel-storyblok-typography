@@ -1,7 +1,7 @@
 <?php
 
 
-namespace Riclep\Storyblok\Traits;
+namespace Riclep\StoryblokTypography\Traits;
 
 use PHP_Typography\PHP_Typography;
 use PHP_Typography\Settings as TypographySettings;

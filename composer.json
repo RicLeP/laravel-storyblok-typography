@@ -26,12 +26,12 @@
     },
     "autoload": {
         "psr-4": {
-            "Riclep\\LaravelStoryblokTypography\\": "src"
+            "Riclep\\StoryblokTypography\\": "src"
         }
     },
     "autoload-dev": {
         "psr-4": {
-            "Riclep\\LaravelStoryblokTypography\\Tests\\": "tests"
+            "Riclep\\StoryblokTypography\\Tests\\": "tests"
         }
     },
     "scripts": {
