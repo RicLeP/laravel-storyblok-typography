@@ -17,7 +17,8 @@
     ],
     "require": {
         "php": "^8.0",
-        "illuminate/support": "^9.0"
+        "illuminate/support": "^9.0",
+	    "mundschenk-at/php-typography": "^6.6"
     },
     "require-dev": {
         "orchestra/testbench": "^7.0",
@@ -40,15 +41,5 @@
     },
     "config": {
         "sort-packages": true
-    },
-    "extra": {
-        "laravel": {
-            "providers": [
-                "Riclep\\LaravelStoryblokTypography\\LaravelStoryblokTypographyServiceProvider"
-            ],
-            "aliases": {
-                "LaravelStoryblokTypography": "Riclep\\LaravelStoryblokTypography\\LaravelStoryblokTypographyFacade"
-            }
-        }
     }
 }
