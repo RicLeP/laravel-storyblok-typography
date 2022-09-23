@@ -1,0 +1,54 @@
+{
+    "name": "riclep/laravel-storyblok-typography",
+    "description": "A bunch of typographical helpers and features for Laravel Storyblok",
+    "keywords": [
+        "riclep",
+        "laravel-storyblok-typography"
+    ],
+    "homepage": "https://github.com/riclep/laravel-storyblok-typography",
+    "license": "MIT",
+    "type": "library",
+    "authors": [
+        {
+            "name": "Richard Le Poidevin",
+            "email": "ric@sirric.co.uk",
+            "role": "Developer"
+        }
+    ],
+    "require": {
+        "php": "^7.4|^8.0",
+        "illuminate/support": "^8.0"
+    },
+    "require-dev": {
+        "orchestra/testbench": "^6.0",
+        "phpunit/phpunit": "^9.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "Riclep\\LaravelStoryblokTypography\\": "src"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Riclep\\LaravelStoryblokTypography\\Tests\\": "tests"
+        }
+    },
+    "scripts": {
+        "test": "vendor/bin/phpunit",
+        "test-coverage": "vendor/bin/phpunit --coverage-html coverage"
+
+    },
+    "config": {
+        "sort-packages": true
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Riclep\\LaravelStoryblokTypography\\LaravelStoryblokTypographyServiceProvider"
+            ],
+            "aliases": {
+                "LaravelStoryblokTypography": "Riclep\\LaravelStoryblokTypography\\LaravelStoryblokTypographyFacade"
+            }
+        }
+    }
+}
