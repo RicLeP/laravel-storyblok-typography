@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites>
+  <testsuite name="" tests="2" assertions="4" errors="0" warnings="0" failures="0" skipped="0" time="0.213148">
+    <testsuite name="Test Suite" tests="2" assertions="4" errors="0" warnings="0" failures="0" skipped="0" time="0.213148">
+      <testsuite name="Riclep\StoryblokTypography\Tests\BlockTest" file="C:\www\laravel-storyblok-typography\tests\BlockTest.php" tests="2" assertions="4" errors="0" warnings="0" failures="0" skipped="0" time="0.213148">
+        <testcase name="can_apply_typography" class="Riclep\StoryblokTypography\Tests\BlockTest" classname="Riclep.StoryblokTypography.Tests.BlockTest" file="C:\www\laravel-storyblok-typography\tests\BlockTest.php" line="12" assertions="2" time="0.192293"/>
+        <testcase name="can_apply_settings_to_typography" class="Riclep\StoryblokTypography\Tests\BlockTest" classname="Riclep.StoryblokTypography.Tests.BlockTest" file="C:\www\laravel-storyblok-typography\tests\BlockTest.php" line="22" assertions="2" time="0.020855"/>
+      </testsuite>
+    </testsuite>
+  </testsuite>
+</testsuites>

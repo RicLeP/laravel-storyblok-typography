@@ -1,0 +1,12 @@
+
+
+Code Coverage Report:    
+  2022-09-30 13:42:52    
+                         
+ Summary:                
+  Classes:  0.00% (0/1)  
+  Methods: 66.67% (2/3)  
+  Lines:   92.31% (12/13)
+
+Riclep\StoryblokTypography\Traits\AppliesTypography
+  Methods:  66.67% ( 2/ 3)   Lines:  92.31% ( 12/ 13)
