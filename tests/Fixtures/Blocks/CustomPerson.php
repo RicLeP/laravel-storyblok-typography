@@ -14,7 +14,7 @@ class CustomPerson extends Block
 
 	protected $applyTypography = ['Text', 'Html'];
 
-	public function init() {
+	public function fieldsReady() {
 		$settings = new TypographySettings();
 		$settings->set_smart_quotes(false);
 
