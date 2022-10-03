@@ -1,10 +1,10 @@
-# Very short description of the package
+# Laravel Storyblok - Typography plugin
 
 [![Latest Version on Packagist](https://img.shields.io/packagist/v/riclep/laravel-storyblok-typography.svg?style=flat-square)](https://packagist.org/packages/riclep/laravel-storyblok-typography)
 [![Total Downloads](https://img.shields.io/packagist/dt/riclep/laravel-storyblok-typography.svg?style=flat-square)](https://packagist.org/packages/riclep/laravel-storyblok-typography)
 ![GitHub Actions](https://github.com/riclep/laravel-storyblok-typography/actions/workflows/main.yml/badge.svg)
 
-This is where your description should go. Try and limit it to a paragraph or two, and maybe throw in a mention of what PSRs you support to avoid any confusion with users and contributors.
+Make your content sing with enhanced typography thanks to [PHP Typography](https://github.com/mundschenk-at/php-typography). The package includes a trait making it simple to apply typographic fixes such as proper quotes '' -> ‘’, small caps and useful class names for styling numbers etc.
 
 ## Installation
 
@@ -16,15 +16,26 @@ composer require riclep/laravel-storyblok-typography
 
 ## Usage
 
+It’s really simple to use, just add the trait to any `Block`s you want to apply typography to. Create an `$applyTypography` property containing an array of fields. It will work for text and html content and has sensible defaults but you can override the settings on a `Block` by `Block` basis.
+
 ```php
-// Usage description here
+<?php
+
+namespace App\Storyblok;
+
+
+use Riclep\Storyblok\Block as BaseBlock;
+use Riclep\StoryblokTypography\Traits\AppliesTypography;
+
+class Block extends BaseBlock
+{
+	use AppliesTypography;
+
+	protected $applyTypography = ['Text', 'Html'];
+}
 ```
 
-### Testing
-
-```bash
-composer test
-```
+[Read the docs for more](https://ls.sirric.co.uk/docs/2.14/typography).
 
 ### Changelog
 
