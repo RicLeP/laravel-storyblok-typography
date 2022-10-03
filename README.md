@@ -4,7 +4,7 @@
 [![Total Downloads](https://img.shields.io/packagist/dt/riclep/laravel-storyblok-typography.svg?style=flat-square)](https://packagist.org/packages/riclep/laravel-storyblok-typography)
 ![GitHub Actions](https://github.com/riclep/laravel-storyblok-typography/actions/workflows/main.yml/badge.svg)
 
-Make your content sing with enhanced typography thanks to [PHP Typography](https://github.com/mundschenk-at/php-typography). The package include a trait making it simple to apply typographic fixes such as proper quotes '' -> ‘’, small caps and useful class names for styling numbers etc.
+Make your content sing with enhanced typography thanks to [PHP Typography](https://github.com/mundschenk-at/php-typography). The package includes a trait making it simple to apply typographic fixes such as proper quotes '' -> ‘’, small caps and useful class names for styling numbers etc.
 
 ## Installation
 
@@ -35,7 +35,7 @@ class Block extends BaseBlock
 }
 ```
 
-[Read the docs for more](https://ls.sirric.co.uk/docs/2.13/typography).
+[Read the docs for more](https://ls.sirric.co.uk/docs/2.14/typography).
 
 ### Changelog
 
