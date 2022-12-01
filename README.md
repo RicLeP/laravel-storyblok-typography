@@ -6,6 +6,8 @@
 
 Make your content sing with enhanced typography thanks to [PHP Typography](https://github.com/mundschenk-at/php-typography). The package includes a trait making it simple to apply typographic fixes such as proper quotes '' -> ‘’, small caps and useful class names for styling numbers etc.
 
+This package is a module for [Laravel Storyblok](https://github.com/RicLeP/laravel-storyblok)
+
 ## Installation
 
 You can install the package via composer:
